@@ -1,0 +1,39 @@
+.login {
+    font-size: 18px;   
+    color: white;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+}
+
+.title {
+    display: inline-block;
+    font-size: 20px;   
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.left {
+    margin-left: 400px;
+    width: 200px;
+    height: 100%
+}
+
+.right {
+    margin-right: 400px;
+    width: 300px;
+    height: 100%;
+    float: right;
+    margin-top: -70px;
+}
+
+.body {
+    background-color: #1b4965;
+    width: 100%;
+    height: 70px;
+    min-width: 1300px;
+}

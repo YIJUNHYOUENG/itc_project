@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+/*import axios from "axios";
+import { useEffect } from "react";
 import './App.css';
 
 function App() {
+  const callApi = async () => {
+    axios.get("http://localhost:5000/api/").then((req) => console.log(req.data.test));
+  }
+
+  useEffect(() => {
+    callApi();
+  }, []);
+
+  return <div>test</div>;
+}
+
+export default App;*/
+
+
+import Router from "./Router/Router"
+import "./App.css"
+
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{width:"100%", height:"100%"}}>
+      <Router/> 
     </div>
   );
 }
 
+//<Route path="/" element={} />
 export default App;
