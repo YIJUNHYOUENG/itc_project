@@ -2,7 +2,7 @@
     font-size: 18px;   
     color: white;
     display: block;
-    margin-top: 20px;
+    margin-top: 24px;
     cursor: pointer;
     text-decoration: none;
     float: right;
@@ -11,7 +11,7 @@
 .title {
     display: inline-block;
     font-size: 20px;   
-    margin-top: 20px;
+    margin-top: 23px;
     cursor: pointer;
     color: white;
     text-decoration: none;
