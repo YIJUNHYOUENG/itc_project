@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../css/TaxTabBox.css"
 
 function TaxTabBox({ info }) {

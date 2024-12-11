@@ -1,10 +1,11 @@
 const express = require("express");
+const db = require('./database/db');
 const app = express();
 
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
-const test = require("./Router/test");
+const userRouter = require("./Router/userRouter");
 
 app.use(bodyParser.urlencoded({ extended : false }));
 app.use(cors());
@@ -14,7 +15,8 @@ app.use(bodyParser.json());
 //     res.send({test : "hello~~"});
 // });
 
-app.use("/api", test);
+
+app.use("/api", userRouter);
 
 const port = 5000;
 app.listen(port, () => console.log(`${port}`));

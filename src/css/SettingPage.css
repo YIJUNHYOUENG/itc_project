@@ -1,0 +1,45 @@
+.setting-container {
+    width: 800px;
+    height: 400px;
+    margin : auto;
+    background-color: #cae9ff;
+    border-radius: 10px;
+}
+
+.setting-title {
+    width: 100%;
+    height: 60px;
+    font-size: 36px;
+    padding: 30px;
+}
+
+.option-container {
+    width: 100%;
+    height: 90px;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+.option-container span {
+    display: inline-block;
+    width: 80%;
+}
+
+.option-container input {
+    width: auto;
+}
+
+.settingInput {
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #1b4965;
+    color: white;
+    font-size: 14px;
+}
+
+.settingInput:hover {
+    background-color: #174058;
+    color: rgb(240, 240, 240);
+}

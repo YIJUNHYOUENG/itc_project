@@ -98,3 +98,17 @@ button:hover {
     height: 30px;
     cursor: pointer;
 }
+
+.container-pwd-change {
+    width: 500px;
+    height: 460px;
+    margin: auto;
+    margin-top: 120px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+
+.popup-setting {
+    margin-top: 80px;
+}

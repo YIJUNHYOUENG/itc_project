@@ -1,11 +1,15 @@
 .box {
     margin-left: 1%;
     margin-right: 1%;
-    width: 48%;
     height: 140px;
     border-radius: 20px;
     background-color: #cae9ff;
     border: 1px solid #5fa8d3;
+    display: inline-block;
+    margin-top: 20px;
+    min-width: 220px;
+    width: 45%;
+    max-width: 700px;
 }
 
 .box:hover {

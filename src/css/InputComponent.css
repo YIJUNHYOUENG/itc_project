@@ -1,0 +1,212 @@
+.input-container {
+    width: 1000px;
+    background-color: #cae9ff;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.incomeTaxInput {
+    margin-left: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.incomeTaxSelect {
+    width: 210px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.incomeTaxSelectFamilyCnt {
+    display: inline-block;
+    margin-left: 221px;
+}
+
+.incomeTaxSelectFamilyChildCnt {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.incomeTaxSelectYear {
+    display: inline-block;
+    margin-left: 59px;
+}
+
+.incomeTaxSelectMonth {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.incomeTaxFont {
+    font-size: 26px;
+}
+
+.incomeTaxNonTaxAmtStr {
+    margin-left: 80px;
+}
+
+.incomeTaxInputFamilyCnt {
+    margin-left: 222px;
+}
+
+.incomeTaxRate {
+    margin-left: 200px;
+}
+
+.incomeTaxRate label {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.inputComponentButton {
+    width: 100px;
+}
+
+.bonusIncomeTaxInput {
+    margin-left: 222px;
+}
+
+.bonusIncomeTaxSelectYear {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.bonusIncomeTaxSelectMonth {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.bonusIncomeTaxDelete {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url("../Image/delete.png");
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.bonusIncomeTaxTableListInput {
+    width: 94%;
+    height: 26px; 
+    text-align: right;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+table thead tr, table tbody tr {
+    display: table;
+    width: 600px;
+}
+
+table th, table td {
+    width : 250px;
+}
+
+table th:last-child, table td:last-child {
+    width : 100px;
+}
+
+.bonusIncomeTaxSelectMonthBeforeBonusAmt {
+    margin-left: 171px;
+}
+
+.incomeSmallAmounts {
+    margin-left: 232px;
+}
+
+.incomeSmallAmounts label {
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.majorTabMenu {
+    width: 100%;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.majorTabSubMenu {
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: #5fa8d3;
+    cursor: pointer;
+}
+
+.majorTabSubMenu.selected {
+    background-color: #cae9ff;
+}
+
+.majorTabMenu .firstNode {
+    border-radius: 20px 0px 0px 0px;
+}
+
+.majorTabMenu .lastNode {
+    border-radius: 0px 20px 0px 0px;
+}
+
+.majorIncomeTaxInput {
+    margin-left: 80px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.majorInputCenter {
+    margin-left: 234px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.majorSelectJob {
+    float: left;
+    width: 210px;
+}
+
+/* 설명 컴포넌트 */
+.explain-container {
+    width: 1000px;
+    background-color: #5fa8d3;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.result-container {
+    width: 1000px;
+    background-color: #1b4965;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.downBtn {
+    background-color: #1b4965;
+    color: white;
+    width: 140px;
+    height: 28px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.downBtn:hover {
+    background-color: #174058;
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+}

@@ -8,6 +8,20 @@
     float: right;
 }
 
+.setting {
+    margin-right: 50px;
+}
+
+.success-header a {
+    float: right;
+    font-size: 18px;   
+    margin-top: 24px;   
+    color: white;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .title {
     display: inline-block;
     font-size: 20px;   
